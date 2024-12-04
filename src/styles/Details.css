@@ -1,0 +1,82 @@
+
+
+/* General Styles for Detail Views */
+/* Contenedor principal */
+.detail-container {
+    display: flex; /* Organiza los hijos en línea horizontal */
+    gap: 20px; /* Espaciado entre columnas */
+    align-items: flex-start; /* Alinea verticalmente al inicio */
+    padding: 20px;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Imagen */
+.detail-image {
+    max-width: 300px;
+    width: 100%; /* Responsivo */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Detalles */
+.detail-info {
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-info h1 {
+    font-size: 1.8rem;
+    color: #ff5252; /* Resalta el título */
+}
+
+/* Botón */
+.detail-back-btn {
+    margin-top: 20px;
+    align-self: flex-start;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.detail-back-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Descripción */
+.description-container {
+    flex: 1; /* Ocupa el espacio disponible */
+    background-color: #1c1c1c; /* Fondo oscuro para contraste */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-left: 4px solid #ff5252; /* Línea roja decorativa */
+    color: #ffffff; /* Texto blanco */
+}
+
+.description-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff5252; /* Rojo brillante */
+}
+
+.description-text {
+    font-size: 1rem;
+    line-height: 1.6; /* Mejora la legibilidad */
+    text-align: justify; /* Justifica el texto */
+    margin: 0;
+    color: #cccccc; /* Gris claro */
+}
+
+
+
+

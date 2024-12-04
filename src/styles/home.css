@@ -1,0 +1,11 @@
+.home-container {
+    background-color: #0e0e0e; /* Fondo oscuro */
+    background-image: linear-gradient(to bottom, #0e0e0e, #1c1c1c); /* Degradado opcional */
+    min-height: 100vh; /* Asegura que cubra toda la altura de la pantalla */
+    padding: 20px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+  }
+
+

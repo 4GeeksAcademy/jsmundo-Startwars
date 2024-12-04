@@ -1,0 +1,46 @@
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-video {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.skip-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.skip-button .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(48, 100%, 50%);
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skip-button .btn:hover {
+    background-color: #ffd633;
+}
+.intro-video {
+    width: 100%;
+    height: 100%;
+    border: none; /* Quita cualquier borde */
+}
