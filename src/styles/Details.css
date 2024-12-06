@@ -77,6 +77,79 @@
     color: #cccccc; /* Gris claro */
 }
 
+/* Estilo para pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    .detail-container {
+        flex-direction: column; /* Cambia el diseño a apilado en pantallas más pequeñas */
+        align-items: center; /* Centra los elementos */
+        padding: 15px; /* Reduce el espacio alrededor */
+    }
+
+    .detail-image {
+        max-width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+        margin-bottom: 20px; /* Espaciado inferior entre la imagen y los detalles */
+    }
+
+    .detail-info {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        gap: 15px; /* Ajusta el espaciado interno */
+        text-align: center; /* Centra el texto */
+    }
+
+    .description-container {
+        width: 100%; /* Asegura que el contenedor de descripción ocupe todo el ancho */
+        text-align: center; /* Centra el texto */
+    }
+
+    .description-title {
+        font-size: 1.6rem; /* Reduce ligeramente el tamaño del título */
+    }
+
+    .description-text {
+        font-size: 0.95rem; /* Reduce ligeramente el tamaño del texto */
+    }
+}
+
+/* Estilo para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .detail-container {
+        padding: 10px; /* Reduce aún más el espacio alrededor */
+    }
+
+    .detail-image {
+        max-width: 100%; /* La imagen ocupa todo el ancho disponible */
+        margin-bottom: 15px; /* Espaciado inferior */
+    }
+
+    .detail-info {
+        gap: 10px; /* Reduce el espacio entre los detalles */
+        text-align: center; /* Centra todo el contenido */
+    }
+
+    .detail-info h1 {
+        font-size: 1.4rem; /* Reduce el tamaño del título */
+    }
+
+    .description-container {
+        padding: 15px; /* Reduce el espaciado interno */
+        border-left: none; /* Elimina la línea roja decorativa */
+        border-top: 4px solid #ff5252; /* Cambia la decoración a una línea superior */
+    }
+
+    .description-title {
+        font-size: 1.4rem; /* Reduce el tamaño del título de la descripción */
+    }
+
+    .description-text {
+        font-size: 0.9rem; /* Reduce aún más el tamaño del texto */
+    }
+
+    .detail-back-btn {
+        padding: 8px 15px; /* Ajusta el tamaño del botón */
+        font-size: 0.9rem; /* Reduce el tamaño del texto del botón */
+    }
+}
+
 
 
 
